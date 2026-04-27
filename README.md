@@ -4,7 +4,7 @@ Batch download NASA Landsat satellite imagery for any text. Instead of typing wo
 
 ## 🌍 How it Works
 
-NasaGeoSpeller maps each character in your text to a real Landsat satellite image, downloads all the images, and stitches each word into a single PNG. Each letter has multiple satellite-image variants — repeated letters automatically cycle through them so you get different geological formations.
+NasaGeoSpeller maps each character in your text to a real Landsat satellite image and stitches each word into a single PNG. Each letter has multiple satellite-image variants — repeated letters automatically cycle through them so you get different geological formations.
 
 Optionally, it generates a `locations.txt` file with the **location name** and/or **geographic coordinates** for every image.
 
@@ -31,9 +31,10 @@ Notice the two L's use different satellite images — the tool cycles through al
 git clone https://github.com/Hevarh1/NasaGeoSpeller.git
 cd NasaGeoSpeller
 npm install
-npm run setup          # downloads all 73 letter images from NASA
 node src/index.js "hello world" --locations --coordinates
 ```
+
+The satellite images are **already included** in the repo — no separate download step needed. Just clone, install, and run.
 
 Output in `./output/hello world/`:
 
@@ -59,36 +60,25 @@ o_0 | Crater Lake, Oregon | 42°56'10.0 N 122°06'04.7 W
 
 * **Node.js** (v14 or higher)
 
-## 🚀 Installation
+## 🔄 Updating Assets
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Hevarh1/NasaGeoSpeller.git
-   cd NasaGeoSpeller
-   ```
+To fetch new letter variants from NASA (in case they've added images):
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+```bash
+npm run setup
+```
 
-3. **Download the satellite images:**
-   ```bash
-   npm run setup
-   ```
-   This fetches all letter variants from NASA's servers (73 images total). Re-running it only downloads new variants — if NASA adds images, run it again to pick them up. It also refreshes the location/coordinate metadata from NASA's interactive.
+This probes NASA's servers for any new variants and only downloads what's missing. It also refreshes the location/coordinate metadata from NASA's live site. Re-run it anytime to stay up to date.
 
-   ```
-   🛰️  Downloading NASA Landsat letter images...
-     ✅ A/0 (new)
-     ✅ A/1 (new)
-     ...
-   📦 A: 5 variant(s)
-   📦 B: 2 variant(s)
-   ...
-   🎉 Done! 73 new, 0 cached.
-   📋 Metadata refreshed: 73 entries
-   ```
+```
+🛰️  Downloading NASA Landsat letter images...
+📦 A: 5 variant(s) (all cached)
+📦 B: 2 variant(s)
+  ✅ B/2 (new)
+...
+🎉 Done! 1 new, 72 cached.
+📋 Metadata refreshed: 73 entries
+```
 
 ## 🎬 Usage
 
@@ -122,6 +112,13 @@ node src/index.js "hello world" --coordinates
 node src/index.js "hello world" --locations --coordinates
 ```
 
+### Input validation:
+Only letters a–z (and spaces) are accepted. Numbers, punctuation, emojis, and other symbols will cause an error:
+```
+❌ Invalid character(s): 1 ! 😊
+   Only letters a–z are allowed. Remove everything else and try again.
+```
+
 ## 📁 Input Examples
 
 Place any `.txt` file in the `/input` folder for batch mode:
@@ -144,8 +141,6 @@ No escape from reality
 the quick brown fox jumps over the lazy dog
 ```
 
-Special characters and numbers are stripped automatically — only a–z letters produce images. Casing doesn't matter.
-
 ## ⚙️ Options
 
 | Flag | Description |
@@ -159,11 +154,12 @@ Special characters and numbers are stripped automatically — only a–z letters
 
 ```
 nasageospeller/
-├── assets/             # Downloaded letter images (one folder per letter)
+├── assets/             # Satellite letter images (included in repo)
 │   ├── a/              #   a/0.jpg, a/1.jpg, a/2.jpg …
 │   ├── b/
 │   ├── ...
 │   └── z/
+│   └── metadata.json   # Location & coordinate data for every image
 ├── examples/           # Sample output images for this README
 ├── input/              # Drop .txt files here for batch mode
 ├── output/             # Generated PNGs appear here

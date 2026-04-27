@@ -27,7 +27,15 @@ async function processText(text, outputName, options = {}) {
         metaMap[entry.id] = entry;
     }
 
-    const cleanText = text.toLowerCase().replace(/[^a-z\s]/g, '');
+    const stripped = text.replace(/[a-zA-Z\s]/g, '');
+    if (stripped.length > 0) {
+        const bad = [...new Set(stripped.split(''))].join(' ');
+        console.log(`❌ Invalid character(s): ${bad}`);
+        console.log(`   Only letters a–z are allowed. Remove everything else and try again.`);
+        return;
+    }
+
+    const cleanText = text.toLowerCase().replace(/\s+/g, ' ').trim();
     const words = cleanText.split(/\s+/).filter(w => w.length > 0);
 
     if (words.length === 0) {
