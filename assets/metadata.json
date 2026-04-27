@@ -1,0 +1,367 @@
+[
+  {
+    "id": "a_0",
+    "location": "Hickman, Kentucky",
+    "coordinates": "36°35'20.8 N 89°20'26.9 W"
+  },
+  {
+    "id": "a_1",
+    "location": "Farm Island, Maine",
+    "coordinates": "45°43'43.8 N 69°46'08.9 W"
+  },
+  {
+    "id": "a_2",
+    "location": "Lake Guakhmaz, Azerbaijan",
+    "coordinates": "40°39'50.8 N 47°06'36.2 E"
+  },
+  {
+    "id": "a_3",
+    "location": "Yukon Delta, Alaska",
+    "coordinates": "62°33'17.7 N 164°56'10.3 W"
+  },
+  {
+    "id": "a_4",
+    "location": "Lake Mjøsa, Norway",
+    "coordinates": "60°45'52.7 N 10°56'43.2 E"
+  },
+  {
+    "id": "b_0",
+    "location": "Holla Bend, Arkansas",
+    "coordinates": "35°08'41.1 N 93°03'16.5 W"
+  },
+  {
+    "id": "b_1",
+    "location": "Humaitá, Brazil",
+    "coordinates": "7°37'00.1 S 62°55'17.0 W"
+  },
+  {
+    "id": "c_0",
+    "location": "Black Rock Desert, Nevada",
+    "coordinates": "40°47'15.8 N 119°12'13.0 W"
+  },
+  {
+    "id": "c_1",
+    "location": "Deception Island, Antarctica",
+    "coordinates": "62°57'22.3 S 60°38'32.8 W"
+  },
+  {
+    "id": "c_2",
+    "location": "False River, Louisiana",
+    "coordinates": "30°38'39.7 N 91°26'45.7 W"
+  },
+  {
+    "id": "d_0",
+    "location": "Akimiski Island, Canada",
+    "coordinates": "53°00'58.5 N 81°18'24.6 W"
+  },
+  {
+    "id": "d_1",
+    "location": "Lake Tandou, Australia",
+    "coordinates": "32°37'17.8 S 142°04'21.4 E"
+  },
+  {
+    "id": "e_0",
+    "location": "Firn-filled Fjords, Tibet",
+    "coordinates": "29°15'46.9 N 96°19'03.8 E"
+  },
+  {
+    "id": "e_1",
+    "location": "Sea of Okhotsk",
+    "coordinates": "54°42'50.3 N 136°34'20.4 E"
+  },
+  {
+    "id": "e_2",
+    "location": "Bellona Plateau",
+    "coordinates": "20°30'00.0 S 158°30'00.0 E"
+  },
+  {
+    "id": "e_3",
+    "location": "Breiðamerkurjökull Glacier, Iceland",
+    "coordinates": "64°05'45.0 N 16°21'45.6 W"
+  },
+  {
+    "id": "f_0",
+    "location": "Mato Grosso, Brazil",
+    "coordinates": "13°50'26.9 S 55°17'55.0 W"
+  },
+  {
+    "id": "f_1",
+    "location": "Kruger National Park, South Africa",
+    "coordinates": "28°44'01.3 S 29°12'30.1 E"
+  },
+  {
+    "id": "g_0",
+    "location": "Fonte Boa, Amazonas",
+    "coordinates": "2°26'30.8 S 66°16'43.7 W"
+  },
+  {
+    "id": "h_0",
+    "location": "Southwestern Kyrgyzstan",
+    "coordinates": "40°14'03.6 N 71°14'22.8 E"
+  },
+  {
+    "id": "h_1",
+    "location": "Khorinsky District, Russia",
+    "coordinates": "52°02'50.4 N 109°46'51.2 E"
+  },
+  {
+    "id": "i_0",
+    "location": "Borgarbyggð, Iceland",
+    "coordinates": "64°45'46.4 N 22°27'28.0 W"
+  },
+  {
+    "id": "i_1",
+    "location": "Canandaigua Lake, New York",
+    "coordinates": "42°47'11.0 N 77°42'58.1 W"
+  },
+  {
+    "id": "i_2",
+    "location": "Etosha National Park, Namibia",
+    "coordinates": "18°29'15.2 S 16°10'14.6 E"
+  },
+  {
+    "id": "i_3",
+    "location": "Djebel Ouarkziz, Morocco",
+    "coordinates": "28°18'01.5 N 10°33'58.5 W"
+  },
+  {
+    "id": "i_4",
+    "location": "Holuhraun Ice Field, iceland",
+    "coordinates": "64°51'11.2 N 16°49'37.2 W"
+  },
+  {
+    "id": "j_0",
+    "location": "Great Barrier Reef",
+    "coordinates": "18°20'55.3 S 146°50'51.4 E"
+  },
+  {
+    "id": "j_1",
+    "location": "Karakaya Dam, Turkey",
+    "coordinates": "38°29'37.7 N 38°26'39.5 E"
+  },
+  {
+    "id": "j_2",
+    "location": "Lake Superior, North America",
+    "coordinates": "46°41'10.2 N 90°23'11.5 W"
+  },
+  {
+    "id": "k_0",
+    "location": "Sirmilik National Park, Canada",
+    "coordinates": "72°05'01.1 N 76°48'42.9 W"
+  },
+  {
+    "id": "k_1",
+    "location": "Golmud, China",
+    "coordinates": "35°36'46.3 N 95°03'45.9 E"
+  },
+  {
+    "id": "l_0",
+    "location": "Nusantara, Indonesia",
+    "coordinates": "0°58'18.1 S 116°41'58.9 E"
+  },
+  {
+    "id": "l_1",
+    "location": "Xinjiang, China",
+    "coordinates": "40°04'02.8 N 77°40'00.7 E"
+  },
+  {
+    "id": "l_2",
+    "location": "Regina, Saskatchewan, Canada",
+    "coordinates": "50°11'51.7 N 104°17'15.4 W"
+  },
+  {
+    "id": "l_3",
+    "location": "Regina, Saskatchewan, Canada",
+    "coordinates": "50°12'41.3 N 104°43'38.1 W"
+  },
+  {
+    "id": "m_0",
+    "location": "Shenandoah River, Virginia",
+    "coordinates": "38°46'32.2 N 78°24'07.1 W"
+  },
+  {
+    "id": "m_1",
+    "location": "Potomac River",
+    "coordinates": "38°46'32.2 N 78°24'07.1 W"
+  },
+  {
+    "id": "m_2",
+    "location": "Tian Shan Mountains, Kyrgyzstan",
+    "coordinates": "42°07'16.4 N 80°02'44.1 E"
+  },
+  {
+    "id": "n_0",
+    "location": "Yapacani, Bolivia",
+    "coordinates": "17°18'29.7 S 63°53'19.0 W"
+  },
+  {
+    "id": "n_1",
+    "location": "Yapacani, Bolivia",
+    "coordinates": "17°18'29.7 S 63°53'19.0 W"
+  },
+  {
+    "id": "n_2",
+    "location": "São Miguel do Araguaia, Brazil",
+    "coordinates": "12°56'44.3 S 50°29'42.0 W"
+  },
+  {
+    "id": "o_0",
+    "location": "Crater Lake, Oregon",
+    "coordinates": "42°56'10.0 N 122°06'04.7 W"
+  },
+  {
+    "id": "o_1",
+    "location": "Manicouagan Reservoir",
+    "coordinates": "51°22'42.4 N 68°40'27.2 W"
+  },
+  {
+    "id": "p_0",
+    "location": "Mackenzie River Delta, Canada",
+    "coordinates": "68°12'54.4 N 134°23'15.3 W"
+  },
+  {
+    "id": "p_1",
+    "location": "Riberalta, Bolivia",
+    "coordinates": "10°52'44.0 S 66°02'52.0 W"
+  },
+  {
+    "id": "q_0",
+    "location": "Lonar Crater, India",
+    "coordinates": "19°58'36.8 N 76°30'30.6 E"
+  },
+  {
+    "id": "q_1",
+    "location": "Mount Tambora, Indonesia",
+    "coordinates": "8°14'31.3 S 117°59'31.2 E"
+  },
+  {
+    "id": "r_0",
+    "location": "Lago Menendez, Argentina",
+    "coordinates": "42°41'14.9 S 71°52'21.7 W"
+  },
+  {
+    "id": "r_1",
+    "location": "Province of Sondrio, Italy",
+    "coordinates": "46°17'38.3 N 9°25'14.5 E"
+  },
+  {
+    "id": "r_2",
+    "location": "Florida Keys",
+    "coordinates": "24°45'30.4 N 81°31'53.6 W"
+  },
+  {
+    "id": "r_3",
+    "location": "Canyonlands National Park, Utah",
+    "coordinates": "38°26'27.8 N 109°45'03.3 W"
+  },
+  {
+    "id": "s_0",
+    "location": "Mackenzie River",
+    "coordinates": "68°25'01.0 N 134°08'35.2 W"
+  },
+  {
+    "id": "s_1",
+    "location": "N’Djamena, Chad",
+    "coordinates": "12°00'27.7 N 15°03'46.2 E"
+  },
+  {
+    "id": "s_2",
+    "location": "Rio Chapare, Bolivia",
+    "coordinates": "16°56'04.7 S 65°13'44.2 W"
+  },
+  {
+    "id": "t_0",
+    "location": "Liwa, United Arab Emirates",
+    "coordinates": "23°10'30.0 N 53°47'52.8 E"
+  },
+  {
+    "id": "t_1",
+    "location": "Lena River Delta",
+    "coordinates": "72°52'40.3 N 129°31'51.5 E"
+  },
+  {
+    "id": "u_0",
+    "location": "Canyonlands National Park, Utah",
+    "coordinates": "38°16'09.1 N 109°55'32.7 W"
+  },
+  {
+    "id": "u_1",
+    "location": "Bamforth National Wildlife Refuge, Wyoming",
+    "coordinates": "41°19'26.0 N 105°46'13.9 W"
+  },
+  {
+    "id": "u_2",
+    "location": "Potomac River, Virginia",
+    "coordinates": "38°29'06.4 N 77°10'19.9 W"
+  },
+  {
+    "id": "v_0",
+    "location": "Cellina and Meduna Rivers, Italy",
+    "coordinates": "46°06'41.4 N 12°45'26.6 E"
+  },
+  {
+    "id": "v_1",
+    "location": "New South Wales, Australia",
+    "coordinates": "34°17'11.2 S 150°49'32.4 E"
+  },
+  {
+    "id": "v_2",
+    "location": "Padma River, Bangladesh",
+    "coordinates": "23°21'03.9 N 90°33'06.9 E"
+  },
+  {
+    "id": "v_3",
+    "location": "Mapleton, Maine",
+    "coordinates": "46°32'40.5 N 68°15'06.4 W"
+  },
+  {
+    "id": "w_0",
+    "location": "Ponoy River, Russia",
+    "coordinates": "67°02'10.9 N 40°20'19.3 E"
+  },
+  {
+    "id": "w_1",
+    "location": "La Primavera, Columbia",
+    "coordinates": "5°26'57.9 N 69°47'57.0 W"
+  },
+  {
+    "id": "x_0",
+    "location": "Wolstenholme Fjord, Greenland",
+    "coordinates": "76°44'03.8 N 68°36'23.3 W"
+  },
+  {
+    "id": "x_1",
+    "location": "Davis Straight, Greenland",
+    "coordinates": "62°14'14.8 N 49°34'49.9 W"
+  },
+  {
+    "id": "x_2",
+    "location": "Sermersooq Municipality, Greenland",
+    "coordinates": "66°37'05.2 N 36°22'05.9 W"
+  },
+  {
+    "id": "y_0",
+    "location": "Bíobío River, Chile",
+    "coordinates": "37°16'02.4 S 72°43'42.9 W"
+  },
+  {
+    "id": "y_1",
+    "location": "Estuario de Virrila, Peru",
+    "coordinates": "5°51'53.4 S 80°43'51.6 W"
+  },
+  {
+    "id": "y_2",
+    "location": "Ramsay, New Zealand",
+    "coordinates": "43°31'19.4 S 170°49'53.7 E"
+  },
+  {
+    "id": "z_0",
+    "location": "Primavera do Leste, Brazil",
+    "coordinates": "15°29'38.9 S 54°20'27.5 W"
+  },
+  {
+    "id": "z_1",
+    "location": "Mohammed Boudiaf, Algeria",
+    "coordinates": "34°59'19.3 N 4°23'20.8 E"
+  }
+]
